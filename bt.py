@@ -43,7 +43,7 @@ with st.container():
 with st.container():
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("What is ARITIFICIAL INTELLIGENCE ?")
+        st.subheader("What is ARTIFICIAL INTELLIGENCE ?")
         st.write(
             ':red[Aritificial Intelligence] is mimicking the intelligence and rationality from the human beings. Machines are programmed about what to think. But in the case of machine learning, machines are made to analyze, read data, observe and learn from their mistakes. Artificial Intelligence is probably the most complex of creation of humanity. This is disregarding the fact that the field itself is "largely unexplored".'
         )

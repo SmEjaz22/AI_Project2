@@ -81,7 +81,7 @@ with st.container():
 #     # st.markdown("***")
 # st.write("2020F-BCE-012, Mudabbir Alim ")
 _, col22, col33 = st.columns([1, 1, 1])
-with col33:
+with _:
     st.image(
         image1,
         caption=

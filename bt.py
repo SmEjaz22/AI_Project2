@@ -72,7 +72,7 @@ with st.container():
         )
         st.text("")
 
-    image1 = Image.open('D:/PYTHON CODE/AOOP_Project/Picture4.png')
+    image1 = Image.open('Picture4.png')
 # with col1:
 
 # st.write("2020F-BCE-048, Syed Muhammad Ejaz Hasnain ")

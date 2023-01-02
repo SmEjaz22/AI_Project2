@@ -36,7 +36,7 @@ with st.container():
    st.markdown(
         " <h1 style='text-align: center; color:blue;'>Welcome To The World Of <br> Artificial Intelligence</h1>",
         unsafe_allow_html=True)
-    st.markdown(
+   st.markdown(
         "<h2 style='text-align: center; color:Grey;'><u> 'The Object Detector' </u></h2>",
         unsafe_allow_html=True)
 

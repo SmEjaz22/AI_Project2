@@ -112,12 +112,7 @@ with col2:
     #          use_column_width=5000)
     st.text("")
     st_lottie(gif1, height=250, key="robot")
-    st.text("")
-    st.text("")
-    st.text("")
-    st_lottie(gif2, height=200, key="vision")
-    st.text("")
-    st.text("")
+    st_lottie(gif2, height=280, key="vision")
     st_lottie(gif3, height=250, key="objectrecog")
 
 # st.title("AI")

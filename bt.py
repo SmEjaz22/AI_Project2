@@ -81,7 +81,7 @@ with st.container():
 #     # st.markdown("***")
 # st.write("2020F-BCE-012, Mudabbir Alim ")
 _, col22, col33 = st.columns([1, 1, 1])
-with _:
+with col33:
     st.image(
         image1,
         caption=
@@ -91,16 +91,16 @@ with _:
     st.subheader('Conclusion')
     st.write("As You go through our project")
 st.markdown(
-    "<h2 style='text-align: center; color: red;'><u> GROUP MEMBERS </u></h2>",
+    "<h2 style='text-align: left; color: red;'><u> GROUP MEMBERS </u></h2>",
     unsafe_allow_html=True)
 st.markdown(
-    "<h5 style='text-align: center; color: white;'>Syed Muhammad Ejaz Hasnain <br> 2020F-BCE-048</h5>",
+    "<h5 style='text-align: left; color: white;'>Syed Muhammad Ejaz Hasnain <br> 2020F-BCE-048</h5>",
     unsafe_allow_html=True)
 st.markdown(
-    "<h5 style='text-align: center; color: white;'>Syed Hamza Munawar <br> 2020F-BCE-020 </h5>",
+    "<h5 style='text-align: left; color: white;'>Syed Hamza Munawar <br> 2020F-BCE-020 </h5>",
     unsafe_allow_html=True)
 st.markdown(
-    "<h5 style='text-align: center; color: white;'>Mudabbir Alim <br> 2020F-BCE-012 </h5>",
+    "<h5 style='text-align: left; color: white;'>Mudabbir Alim <br> 2020F-BCE-012 </h5>",
     unsafe_allow_html=True)
 
 with col2:

@@ -33,9 +33,11 @@ gif2 = code1("https://assets6.lottiefiles.com/private_files/lf30_zZJryv.json")
 gif3 = code2("https://assets6.lottiefiles.com/packages/lf20_fKTyo2Pwki.json")
 
 with st.container():
-    st.title(":blue[_**Welcome To** Artificial Intelligence **Project**_]")
+   st.markdown(
+        " <h1 style='text-align: center; color:blue;'>Welcome To The World Of <br> Artificial Intelligence</h1>",
+        unsafe_allow_html=True)
     st.markdown(
-        "<h2 style='text-align: center; color:Grey;'><u> 'Object Detector' </u></h2>",
+        "<h2 style='text-align: center; color:Grey;'><u> 'The Object Detector' </u></h2>",
         unsafe_allow_html=True)
 
 with st.container():
